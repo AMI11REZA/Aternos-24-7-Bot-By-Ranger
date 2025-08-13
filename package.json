@@ -1,18 +1,15 @@
 {
-  "name": "afkbot_byranger",
+  "name": "AFKBot_ByRanger",
   "version": "1.0.0",
-  "description": "A Way To Make You'r Aternos Server Run For 24/7",
-  "main": "index.js",
-  "scripts": {
-  "start": "node index.js --expose-gc"
-  },
-  "engines": {
-    "node": "22.x",
-    "npm": ">=10"
-  },
-   "author": "Ranger",
+  "author": "Ranger",
   "license": "MIT",
+  "scripts": {
+    "start": "node --expose-gc index.js"
+  },
   "dependencies": {
     "minecraft-protocol": "^1.60.1"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
