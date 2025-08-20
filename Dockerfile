@@ -1,10 +1,10 @@
-FROM node:22-slim
+FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install --omit=dev
-
 COPY . .
+
+RUN npm ci --omit=dev
+
 
 CMD ["node", "--expose-gc", "index.js"]
