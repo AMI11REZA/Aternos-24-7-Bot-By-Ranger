@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "author": "Ranger",
   "license": "MIT",
+  "type": "commonjs",
   "scripts": {
     "start": "node --expose-gc index.js"
   },
   "dependencies": {
-    "minecraft-protocol": "^1.60.1"
+    "minecraft-protocol": "^1.41.0"
   },
   "engines": {
-    "node": ">=22"
+    "node": "18.x"
   }
 }
