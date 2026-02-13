@@ -62,11 +62,11 @@ Before you start, make sure you have:
 
 3. 🚀 Click on **App Launch Pad**
 
-4. 📦 Click on **Deploy** button
+4. 📦 Click on **Create App** button
 
 5. ⚙️ **Configure Container Settings:**
    
-   - **Container Name:** Choose any name you want (e.g., `aternos-bot`)
+   - **Application Name:** Choose any name you want (e.g., `aternos-bot`)
    - **Image Name:** `ranger11/24-7aternos`
 
 6. 💻 **Resource Settings:**
@@ -89,7 +89,7 @@ Before you start, make sure you have:
    PORT=12345
    ```
 
-8. 🚀 Click **Deploy** button
+8. 🚀 Click **Deploy Application** button
 
 9. ✅ **Confirm** the deployment
 
