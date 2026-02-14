@@ -73,8 +73,12 @@ Before you start, make sure you have:
    
    - **CPU:** Set to the lowest option
    - **Memory:** Set to the lowest option
+  
+7. 💻 **Network Settings:**
 
-7. 🔧 **Environment Variables:**
+   - **Contaner Port:** enter your aternos server port here
+
+8. 🔧 **Environment Variables:**
    
    Click on **Environment Variables** section and add:
    
@@ -89,9 +93,9 @@ Before you start, make sure you have:
    PORT=12345
    ```
 
-8. 🚀 Click **Deploy Application** button
+9. 🚀 Click **Deploy Application** button
 
-9. ✅ **Confirm** the deployment
+10. ✅ **Confirm** the deployment
 
 ### Step 3: Final Setup
 
@@ -114,10 +118,8 @@ Before you start, make sure you have:
 ### Finding Your Server Address and Port
 
 1. Go to your Aternos server page
-2. Look at the server address (e.g., `example.aternos.me:12345`)
-3. The part before `:` is your **HOST**
-4. The number after `:` is your **PORT**
-
+2. Click on the connect button
+3. 
 ## 🎯 How It Works
 
 The bot uses a sophisticated approach to maintain a persistent connection to your Minecraft server:
