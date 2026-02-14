@@ -4,7 +4,7 @@ const mc = require('minecraft-protocol');
 const HOST = process.env.HOST;
 const PORT = Number.parseInt(process.env.PORT, 10);
 const USERNAME = 'AFKBot_ByRanger';
-const VERSION = '1.8.9';    //Do Not Change The Version, Install Via Backward Ff You'r Aternos Server Version Is Higher Than 1.8.9
+const VERSION = '1.8.9';
 
 let client = null;
 let moveTimer = null;
@@ -64,4 +64,5 @@ function connect() {
 
 process.on('uncaughtException', () => { cleanup(); setTimeout(connect, 100); });
 connect();
+
 
