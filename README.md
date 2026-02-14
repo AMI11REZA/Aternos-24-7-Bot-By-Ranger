@@ -76,7 +76,7 @@ Before you start, make sure you have:
   
 7. 💻 **Network Settings:**
 
-   - **Contaner Port:** enter your aternos server port here
+   - **Contaner Port:** Enter your aternos server port here
 
 8. 🔧 **Environment Variables:**
    
