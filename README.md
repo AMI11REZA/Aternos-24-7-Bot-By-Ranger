@@ -9,7 +9,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/AMI11REZA/Aternos-24-7-Bot-By-Ranger?style=social)](https://github.com/AMI11REZA/Aternos-24-7-Bot-By-Ranger/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/AMI11REZA/Aternos-24-7-Bot-By-Ranger)](https://github.com/AMI11REZA/Aternos-24-7-Bot-By-Ranger/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AMI11REZA/Aternos-24-7-Bot-By-Ranger?tab=MIT-1-ov-file#)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://hub.docker.com/r/ranger11/aternos-bot)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://hub.docker.com/r/ranger11/aternosbot)
 
 <p align="center">
   <img src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" width="400" alt="Minecraft Bot">
@@ -57,7 +57,7 @@ Before you start, make sure you have:
 
 ### Step 2: Deploy to Claw Cloud
 
-1. 🌐 Go to [https://eu-central-1.run.claw.cloud](https://eu-central-1.run.claw.cloud)
+1. 🌐 Go to [Claw Cloud Run](https://eu-central-1.run.claw.cloud)
 
 2. 🔐 **Sign In** to your account (or create one if you don't have it)
 
