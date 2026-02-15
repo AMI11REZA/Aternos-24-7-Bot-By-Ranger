@@ -3,7 +3,7 @@ const mc = require('minecraft-protocol');
 
 const HOST = process.env.HOST;
 const PORT = Number.parseInt(process.env.PORT, 10);
-const USERNAME = 'AFKBot_ByRanger';
+const USERNAME = process.env.USERNAME;
 const VERSION = '1.8.9';
 
 let client = null;
@@ -64,5 +64,6 @@ function connect() {
 
 process.on('uncaughtException', () => { cleanup(); setTimeout(connect, 100); });
 connect();
+
 
 
