@@ -119,7 +119,7 @@ Before you start, make sure you have:
 
 1. Go to your Aternos server page
 2. Click on the connect button
-3. 
+
 ## 🎯 How It Works
 
 The bot uses a sophisticated approach to maintain a persistent connection to your Minecraft server:
