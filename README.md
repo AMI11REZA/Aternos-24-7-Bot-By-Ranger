@@ -85,12 +85,14 @@ Before you start, make sure you have:
    ```
    HOST=Your_Aternos_Server_Address
    PORT=Your_Aternos_Server_Port
+   USERNAME=Your_Desiret_Username_For_The_Bot (Optional)
    ```
    
    **Example:**
    ```
    HOST=example.aternos.me
    PORT=12345
+   USERNAME=Mike13
    ```
 
 9. 🚀 Click **Deploy Application** button
@@ -101,7 +103,7 @@ Before you start, make sure you have:
 
 1. 🎮 Go back to your Aternos server dashboard
 2. 👥 Navigate to **Players** tab
-3. 🔍 Find `AFKBot_ByRanger` in the list
+3. 🔍 Find `AFKBot_ByRanger` in the list (For the default username)
 4. 🎭 Set the bot's gamemode to **Spectator**
 
 ✅ **Done!** Your bot is now keeping your server online 24/7! 🎉
@@ -114,6 +116,7 @@ Before you start, make sure you have:
 |----------|-------------|----------|---------|
 | `HOST` | Your Aternos server address | ✅ Yes | `example.aternos.me` |
 | `PORT` | Your Aternos server port | ✅ Yes | `12345` |
+| `USERNAME` | The bot username you like | ❌ No | `Mike13` |
 
 ### Finding Your Server Address and Port
 
