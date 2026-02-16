@@ -489,9 +489,6 @@ Future features we're considering:
 - [ ] 📊 Web dashboard for monitoring bot status
 - [ ] 🔔 Discord notifications for disconnections
 - [ ] 🎮 Support for multiple servers from one bot
-- [ ] 📈 Analytics and uptime statistics
-- [ ] 🌐 Custom movement patterns
-- [ ] 🔐 Encrypted configuration support
 
 Vote for features or suggest new ones in [Issues](../../issues)!
 
