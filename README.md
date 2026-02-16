@@ -68,7 +68,7 @@ Before you start, make sure you have:
 5. ⚙️ **Configure Container Settings:**
    
    - **Application Name:** Choose any name you want (e.g., `aternos-bot`)
-   - **Image Name:** `ranger11/24-7aternos`
+   - **Image Name:** `ranger11/aternosbot:latest`
 
 6. 💻 **Resource Settings:**
    
@@ -93,7 +93,7 @@ Before you start, make sure you have:
    ```
    HOST=example.aternos.me
    PORT=12345
-   USERNAME=Mike13
+   USERNAME=MyBot
    ```
 
 9. 🚀 Click **Deploy Application** button
@@ -117,7 +117,7 @@ Before you start, make sure you have:
 |----------|-------------|----------|---------|
 | `HOST` | Your Aternos server address | ✅ Yes | `example.aternos.me` |
 | `PORT` | Your Aternos server port | ✅ Yes | `12345` |
-| `USERNAME` | The bot username you like | ❌ No | `Mike13` |
+| `USERNAME` | The bot username you like | ❌ No | `MyBot` |
 
 ### Finding Your Server Address and Port
 
