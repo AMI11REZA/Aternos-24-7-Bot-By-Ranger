@@ -337,7 +337,7 @@ Whether you're running a small private server or a growing community, this bot h
 
 ```
 🚀 99.9%+ Uptime
-⚡ <75MB Memory Usage
+⚡ <35MB Memory Usage
 💰 $0 Monthly Cost
 🔧 5-Minute Setup
 📦 1-Click Deployment
@@ -443,7 +443,7 @@ Make sure:
 
 **$0!** The bot is designed to run on free hosting tiers:
 - Claw Cloud free tier provides enough resources
-- Docker image is extremely lightweight (~75MB)
+- Docker image is extremely lightweight (~35MB)
 - Minimal CPU and memory requirements
 - No premium features or paywalls
 </details>
