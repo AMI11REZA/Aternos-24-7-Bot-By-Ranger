@@ -73,7 +73,7 @@ Before you start, make sure you have:
 6. 💻 **Resource Settings:**
    
    - **CPU:** Set to the lowest option
-   - **Memory:** Set to lowest option
+   - **Memory:** Set to the lowest option
   
 7. 💻 **Network Settings:**
 
