@@ -1,11 +1,6 @@
 'use strict';
 const mc = require('minecraft-protocol');
 
-const HOST = process.env.HOST;
-const PORT = Number.parseInt(process.env.PORT, 10) || 25565;
-const USERNAME = process.env.USERNAME || 'AFKBot_ByRanger';
-const RECONNECT_DELAY = 5000;
-
 const pos = Object.seal({ x: 0, y: 0, z: 0, yaw: 0, pitch: 0, onGround: true });
 
 let client = null;
@@ -31,7 +26,7 @@ function scheduleReconnect() {
   if (reconnecting) return;
   reconnecting = true;
   cleanup();
-  setTimeout(() => { reconnecting = false; connect(); }, RECONNECT_DELAY);
+  setTimeout(() => { reconnecting = false; connect(); }, 5000);
 }
 
 function setPos(p) {
@@ -55,9 +50,9 @@ function connect() {
   forward = true;
 
   client = mc.createClient({
-    host: HOST,
-    port: PORT,
-    username: USERNAME,
+    host: process.env.HOST,
+    port: Number.parseInt(process.env.PORT, 10),
+    username: process.env.USERNAME || 'AFKBot_ByRanger',
     version: '1.8.9',
     keepAlive: true,
     hideErrors: true,

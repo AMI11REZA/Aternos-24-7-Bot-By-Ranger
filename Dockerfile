@@ -1,10 +1,10 @@
-FROM node:18-alpine
+FROM node:18-alpine3.18
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY package.json ./
 
-RUN npm ci --omit=dev && npm cache clean --force
+RUN npm install && npm cache clean --force
 
 COPY index.js .
 
