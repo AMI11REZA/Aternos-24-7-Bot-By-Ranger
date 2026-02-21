@@ -73,13 +73,9 @@ Before you start, make sure you have:
 6. 💻 **Resource Settings:**
    
    - **CPU:** Set to the lowest option
-   - **Memory:** Set to the lowest option
-  
-7. 💻 **Network Settings:**
+   - **Memory:** Set to 128 MB
 
-   - **Contaner Port:** Enter your aternos server port here
-
-8. 🔧 **Environment Variables:**
+7. 🔧 **Environment Variables:**
    
    Click on **Environment Variables** section and add:
    
@@ -96,9 +92,9 @@ Before you start, make sure you have:
    USERNAME=MyBot
    ```
 
-9. 🚀 Click **Deploy Application** button
+8. 🚀 Click **Deploy Application** button
 
-10. ✅ **Confirm** the deployment
+9. ✅ **Confirm** the deployment
 
 ### Step 3: Final Setup
 
